@@ -17,3 +17,6 @@ http://<host>:9200  查看是否安装成功
 
 #### 参考资料
 - https://hub.docker.com/_/elasticsearch docke官网
+- https://www.elastic.co/guide/cn/elasticsearch/php/current/index.html  php api
+- https://github.com/elastic/go-elasticsearch go api
+- ....
