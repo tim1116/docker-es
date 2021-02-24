@@ -25,7 +25,7 @@ docker下安装elasticsearch
 
 4:docker pull kibana:7.9.3 （保证版本一样）
 
-5:docker run -d --name kibana --net es -p 5601:5601 kibana:7.9.3 
+5:docker run -d --name kibana -e "I18N_LOCALE=zh-CN" --net es -p 5601:5601 kibana:7.9.3 
 ~~~
 
 
