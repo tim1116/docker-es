@@ -23,9 +23,9 @@ docker下安装elasticsearch
 
 3:docker run --name elasticsearch --net es -p 9200:9200 -p 9300:9300  -e "discovery.type=single-node"  -d myes
 
-4:docker pull kibana:7.9.3 （保证版本一样）
+4:docker pull kibana:7.16.1 （保证版本一样）
 
-5:docker run -d --name kibana -e "I18N_LOCALE=zh-CN" --net es -p 5601:5601 kibana:7.9.3 
+5:docker run -d --name kibana -e "I18N_LOCALE=zh-CN" --net es -p 5601:5601 kibana:7.16.1
 ~~~
 
 
